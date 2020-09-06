@@ -65,3 +65,78 @@ body{
 .profile-photo img{
 	height: 6rem;
 }
+
+.instagram-login{
+	background-color: #0095f6;
+	color: #ffffff;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.instagram-logout{
+	color: #0095f6;
+	margin-top: 1rem;
+}
+
+.not-accaunt{
+	color: rgb(160 160 160);
+}
+
+.link-blue{
+	color: #0095f6;
+}
+
+.getApp{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 1.3rem 0;
+}
+
+.download{
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1rem;
+}
+
+ .app-downloadApple {
+ 	height: 4rem;
+	width: 11rem;
+	margin: 4px;
+	background-size: cover;
+ 	background-image: url('./imagens/appStore.png');
+ }
+
+ .app-downloadGoogle{
+ 	height: 4rem;
+	width: 11rem;
+	margin: 4px;
+	background-size: cover;
+ 	background-image: url('./imagens/googlePlay.png');
+ 	}
+
+/* media query */
+
+@media(max-width: 1024px) {
+	.instagram-wrapper{
+		width: 90%;
+	}
+}
+
+@media( max-width: 650px){
+	.instagram-wrapper{
+		width: 90%;
+	}
+
+	.instagram-phone{
+		display: none;
+	}
+
+	.actions{
+		width: 100%;
+	}
+}
